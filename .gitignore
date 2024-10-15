@@ -1,4 +1,9 @@
 
+
 # Files
 *.*~
 
+# Folders
+__pycache__/
+instance/
+migrations/

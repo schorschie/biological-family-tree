@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Person</title>
+</head>
+<body>
+    <h1>Add New Person</h1>
+    <form action="/add" method="POST">
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" required><br><br>
+
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="text" name="date_of_birth" required><br><br>
+
+        <label for="place_of_birth">Place of Birth:</label>
+        <input type="text" name="place_of_birth" required><br><br>
+
+        <label for="mother_id">Mother ID:</label>
+        <input type="text" name="mother_id"><br><br>
+
+        <label for="father_id">Father ID:</label>
+        <input type="text" name="father_id"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="m">Male</option>
+            <option value="w">Female</option>
+            <option value="d">Diverse</option>
+        </select><br><br>
+
+        <button type="submit">Add Person</button>
+    </form>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
